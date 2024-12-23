@@ -1,9 +1,8 @@
 <?php
 const DB_SERVER = "localhost"; 
-const DB_NAME = "u115058317_orden"; 
-const DB_USER = "u115058317_orden"; 
-const DB_PASS = "Acema2024"; 
-
+const DB_NAME = "orden_compra"; 
+const DB_USER = "root"; 
+const DB_PASS = ""; 
 class Database {
     public static function connect() {
         try {
